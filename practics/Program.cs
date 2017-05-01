@@ -52,6 +52,8 @@ namespace practics
                 Console.WriteLine(s);
             }
             #endregion
+
+
             Console.ReadKey();
         }
     }

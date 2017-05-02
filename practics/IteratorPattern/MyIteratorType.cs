@@ -13,11 +13,9 @@ namespace practics.IteratorPattern
 
         public IEnumerator<string> GetEnumerator()
         {
-            var list = new List<string>();
-            list.Add("abc");
-            list.Add("dfg");
-            list.Add("ghi");
-            return list.GetEnumerator();
+            yield return strArray[2];
+            yield return strArray[0];
+            yield return strArray[1];
         }
 
         IEnumerator IEnumerable.GetEnumerator()

@@ -20,12 +20,12 @@ namespace practics.OOPConcept
     {
         //public override void eat()
         //{
-        //    Console.WriteLine("eat like an dog!");
+        //    Console.WriteLine("eat like a dog!");
         //}
 
         public void play()
         {
-            Console.WriteLine("play like an dog!");
+            Console.WriteLine("play like a dog!");
         }
     }
 }

@@ -51,6 +51,15 @@ namespace practics
             {
                 Console.WriteLine(s);
             }
+
+            using (var it = iteratorType.GetEnumerator())
+            {
+                while (it.MoveNext())
+                {
+                    Console.WriteLine(it.Current);
+                }
+            }
+
             #endregion
 
 

@@ -9,6 +9,7 @@ namespace practics.CommandPattern.UndoRedo
     class DrawCircleCommand : IUndoableCommand
     {
         private Canvas canvas { get; set; }
+
         private string previousDrawings { get; set; }
 
         public DrawCircleCommand(Canvas canvas)
